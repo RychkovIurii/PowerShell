@@ -1,0 +1,1 @@
+﻿New-item -Path . -Name "Käyttäjä.txt" -ItemType File -Value "Käyttäjä"

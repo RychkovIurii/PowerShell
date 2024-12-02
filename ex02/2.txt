@@ -1,0 +1,3 @@
+$fileName = Read-Host -Prompt "Type filename and press enter: "
+$value = Read-Host -Prompt "Type text you want to save in file and press enter: "
+$value | Set-Content -Path "$fileName.txt"

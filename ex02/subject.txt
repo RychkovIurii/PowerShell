@@ -1,0 +1,32 @@
+1.	Tee skripti nimeltä 1.ps1 jossa
+
+-	Muuttuja (variable) on nykyinen päiväys ja kellonaika
+-	Tulostaa ruudulle tämän muuttujan arvon
+-	Skripti jää ruudulle, kunnes käyttäjä painaa jotakin näppäintä
+-	Kun .ps1 skripti on valmis ja olet testannut sen toimivuuden, tallenna se .txt muodossa
+
+2.	Tee skripti nimeltä 2.ps1 joka
+
+-	Kysyy käyttäjältä minkä niminen tekstitiedosto luodaan? (tallenna vastaus muuttujaan)
+-	Kysyy käyttäjältä mitä tekstiä tekstitiedostoon kirjoitetaan? (tallenna vastaus eri muuttujaan)
+-	Luo tekstitiedoston (.txt), jonka nimi ja sisältö vastaavat näitä muuttujia.
+-	Kun .ps1 skripti on valmis ja olet testannut sen toimivuuden, tallenna se .txt muodossa
+
+3.	Tee skripti nimeltä 3.ps1
+
+-	Joka muuttaa kaikki .ps1 tiedostot .txt tiedostoiksi siinä kansiossa missä skripti sijaitsee
+-	Kun .ps1 skripti on valmis ja olet testannut sen toimivuuden, tallenna se .txt muodossa :D
+
+4.	  
+-	Pura liitteenä oleva 4.zip vaikkapa työpöydälle
+-	Navigoi kansioon 4 josta löydät kaksi skriptiä: 1.ps1 ja 2.ps2
+-	Aja skriptit järjestyksessä 1 ja sitten 2 (klikkaat oikealla ja run with powershell)
+-	Tutki tekstitiedostoja, jotka nämä skriptit tuottavat
+-	Avaa molemmat skriptit Visual Studio Codessa, ja vertaile niitä
+-	Mitä eroa niissä on?
+
+
+-	Kun keksit mitä eroa ja mitä vikaa 2.ps1 skriptissä on, korjaa skripti ja kokeile että molemmat toimivat samalla tavalla ja oikein
+
+-	Kerro tähän alle, miten asian ratkaisit:
+

@@ -1,0 +1,1 @@
+$dateTime = Get-Date; Write-Host $dateTime; [System.Console]::ReadKey($true) | Out-Null
