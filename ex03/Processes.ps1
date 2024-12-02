@@ -1,0 +1,1 @@
+Get-Process | Set-Content -Path "$env:USERPROFILE\Desktop\Exercise03_Rychkov\prosessit.txt"
