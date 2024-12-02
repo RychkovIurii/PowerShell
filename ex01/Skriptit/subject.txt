@@ -1,0 +1,9 @@
+TEHTÄVIÄ
+
+1.	Luo työpöydälle uusi kansio jonne tallennat skriptit (skripteillä on .ps1 tiedstopääte)
+
+2.	Tee skripti joka luo Testikansio -nimisen kansion sijaintiin jossa skripti ajetaan.
+
+3.	Tee skripti joka tulostaa ruudulle ”Hello World!” tekstin, ja jää ruudulle kunnes käyttäjä painaa jotakin näppäintä.
+
+4.	Tee skripti joka luo tiedoston nimeltä testi.txt ja kirjoittaa siihen tekstin ”Hello World!” 

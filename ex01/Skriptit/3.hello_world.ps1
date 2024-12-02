@@ -1,0 +1,1 @@
+Write-Host "Hello, World!"; [System.Console]::ReadKey($true) | Out-Null
