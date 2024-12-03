@@ -7,7 +7,7 @@ do {
 			$validInputPower = $false;
 		}
 		elseif ([float]$powerConsumption -le 0) {
-			Write-Host "Error: Power consumption cannot be negative!" -ForegroundColor Red;
+			Write-Host "Error: Power consumption cannot be negative or zero!" -ForegroundColor Red;
 			$validInputPower = $false;
 		}
 		else {
@@ -24,7 +24,7 @@ do {
 			$validInputTime = $false;
 		}
 		elseif ([float]$usageTime -le 0) {
-			Write-Host "Error: Usage time cannot be negative!" -ForegroundColor Red;
+			Write-Host "Error: Usage time cannot be negative or zero!" -ForegroundColor Red;
 			$validInputTime = $false;
 		}
 		else {
@@ -41,7 +41,7 @@ do {
 			$validInputPrice = $false;
 		}
 		elseif ([float]$pricePerKWh -le 0) {
-			Write-Host "Error: Price per kilowatt-hour cannot be negative!" -ForegroundColor Red;
+			Write-Host "Error: Price per kilowatt-hour cannot be negative or zero!" -ForegroundColor Red;
 			$validInputPrice = $false;
 		}
 		else {

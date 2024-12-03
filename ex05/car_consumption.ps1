@@ -5,7 +5,7 @@ do {
 		$validInput = $false;
 	}
 	elseif ([double]$consumption -le 0) {
-		Write-Host "Error: Consumption cannot be negative!" -ForegroundColor Red;
+		Write-Host "Error: Consumption cannot be negative or zero!" -ForegroundColor Red;
 		$validInput = $false;
 	}
 	else {
@@ -20,7 +20,7 @@ do {
 		$validInputDistance  = $false;
 	}
 	elseif ([double]$distance -le 0) {
-		Write-Host "Error: Distance cannot be negative!" -ForegroundColor Red;
+		Write-Host "Error: Distance cannot be negative or zero!" -ForegroundColor Red;
 		$validInputDistance  = $false;
 	}
 	else {
