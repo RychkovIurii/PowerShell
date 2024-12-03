@@ -6,7 +6,7 @@ do {
 		$validInput = $false;
 	}
 	elseif ([double]$kilometers -le 0) {
-		Write-Host "Error: Distance cannot be negative!" -ForegroundColor Red;
+		Write-Host "Error: Distance cannot be negative or zero!" -ForegroundColor Red;
 		$validInput = $false;
 	}
 	else {
