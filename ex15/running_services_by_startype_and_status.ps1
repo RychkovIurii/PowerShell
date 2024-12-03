@@ -1,0 +1,1 @@
+Get-Service | Select-Object -Property Name, StartType, Status | Sort-Object -Property StartType, Status;

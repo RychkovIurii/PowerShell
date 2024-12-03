@@ -1,0 +1,1 @@
+Get-Process | Select-Object -Property Name, StartTime | Sort-Object -Property StartTime;
