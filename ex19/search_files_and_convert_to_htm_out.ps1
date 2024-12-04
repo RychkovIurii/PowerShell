@@ -1,0 +1,1 @@
+Get-ChildItem -Path "C:\Windows\System32\" -Filter *.dll -Recurse 2> $pwd\error_log_for_get_childitem.txt | Select-object -property Name, Directory, VersionInfo | ConvertTo-Html | Out-File -FilePath "$pwd\dll.html";
