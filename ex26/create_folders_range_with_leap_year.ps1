@@ -28,12 +28,14 @@ $years = $startYear..$endYear;
 $months = 1..12;
 
 foreach ($year in $years) {
-	New-Item -ItemType Directory -Path $pwd/$year;
+	New-Item -ItemType Directory -Path $pwd\$year;
 	foreach ($month in $months) {
-		New-Item -ItemType Directory -Path $pwd/$year/$month;
+		$monthName = (Get-Culture).DateTimeFormat.GetMonthName($month);
+		New-Item -ItemType Directory -Path "$pwd\$year\$month - $monthName";
 		$days = 1..[datetime]::DaysInMonth($year, $month);
 		foreach ($day in $days) {
-			New-Item -ItemType Directory -Path $pwd/$year/$month/$day;
+			$weekday = (Get-Date "$year-$month-$day").DayOfWeek;
+			New-Item -ItemType Directory -Path "$pwd\$year\$month - $monthName\$day.$weekday";
 		}
 	}
 }
