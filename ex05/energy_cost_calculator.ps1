@@ -64,8 +64,8 @@ do {
 	$annualCost = $energyCost * 365;
 
 	Write-Host "The energy consumption is $energyConsumption kWh." -ForegroundColor Green;
-	Write-Host "The energy cost is $energyCost cents per day." -ForegroundColor Green;
-	Write-Host "The annual cost is $annualCost cents." -ForegroundColor Green;
+	Write-Host "The energy cost is $energyCost euro per day." -ForegroundColor Green;
+	Write-Host "The annual cost is $annualCost euro." -ForegroundColor Green;
 	
 	#[System.Console]::ReadKey($true) | Out-Null;
 	$exit = Read-Host "Do you want to calculate the cost for another device? Press (y) to continue or any other key to exit";
